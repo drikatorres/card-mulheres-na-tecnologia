@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+body {
+    font-family: 'Roboto';
+}
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 960px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    background: #f2f1f1;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 16px;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    border-radius: 200px;
+}
+
+.container-sobre {
+    display: flex;
+}
+
+.sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 32px;
+    font-size: 20px;
+}
+
+.nome {
+    color: rgba(69, 20, 148, 0.795);
+    font-size: 35px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.container-descricao {
+    align-self: auto;
+    margin-bottom: 10px;
+    border-bottom: 0.5px black;
+    gap: 10px;
+
+}
+
+.descricao {
+    font-size: 15px;
+    justify-content: center;  
+    margin-bottom: 10px;
+    border-bottom: 0.5px black;
+}
